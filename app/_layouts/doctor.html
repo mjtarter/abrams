@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div id="bio">
+	<div class="row">
+		<div class="large-12 medium-12 columns">
+			<img src="{{page.image}}">
+			<h1>Doctor {{ page.doctor_name }}</h1>
+			{{ page.bio }}
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="large-12 medium-12 columns">
+		<h1 class="text-center">Our Doctors</h1>
+	</div>
+</div>
+
+<div class="row text-center dr">
+	<div class="large-4 medium-4 columns">
+		{% image dr-abrams.jpg %}
+		<h4>Dr. Abrams</h4>
+		<p>Dr. Abrams has been recognized by The Best Doctors in America as one of the best physicians in the country for ophthalmic surgery.</p>
+	</div>
+	<div class="large-4 medium-4 columns">
+		{% image dr-jj-abrams.jpg %}
+		<h4>Dr. JJ Abrams</h4>
+		<p>Dr. Abrams is a fellow of the American Academy of Optometry and makes annual volunteer eye care missions to Central America.</p>
+	</div>
+	<div class="large-4 medium-4 columns">
+		{% image dr-jones.jpg %}
+		<h4>Dr. Jones</h4>
+		<p>Dr. Jones has a diverse practice background seeing patients of all ages, with special interest in contact lenses and seeing children, with additional interest in autism and learning disabilities. </p>
+	</div>
+</div>
+<div class="row text-center dr">
+	<div class="large-4 medium-4 columns">
+		{% image dr-lloyd.jpg %}
+		<h4>Dr. Lloyd</h4>
+		<p>Dr. Lloyd has been an associate professor of Ophthalmology at the State University of New York and her special interests are treatment of glaucoma and diabetic retinopathy.</p>
+	</div>
+	<div class="large-4 medium-4 columns">
+		{% image dr-mann.jpg %}
+		<h4>Dr. Mann</h4>
+		<p> In addition to general eye exams, Dr. Mann specializes in contact lens fittings and pediatric eye care.</p>
+	</div>
+	<div class="large-4 medium-4 columns">
+		{% image dr-rothbaum.jpg %}
+		<h4>Dr. Rothbaum</h4>
+		<p>Dr. Rothbaum's specialties include cataract, glaucoma surgeries and eyelid surgeries as well as treatment of macular degeneration, diabetic retinopathy, cornea and external diseases. </p>
+	</div>
+</div>
+
+{% include footer.html %}
