@@ -1,22 +1,133 @@
-<header>
-  <div id="menu-bar">
-    <div class="row">
-      <div class="large-2 columns">
-      	{% image logo.jpg %}
-      </div>
-      <div class="large-10 columns">
-        <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About Us</li></a>
-          <a href="doctors.html"><li>Our Doctors</li></a>
-          <a href="first-visit.html"><li>Patient Portal</li></a>
-          <a href="#"><li>LASIK</li></a>
-          <a href="#"><li>Eye Procedures</li></a>
-          <a href="#"><li>Optical</li></a>
-          <a href="#"><li>Contact Us</li></a>
+<!-- Header
+    ============================================= -->
+    <header id="header" class="sticky-style-3">
+
+      <div class="container clearfix">
+
+        <!-- Logo
+        ============================================= -->
+        <div id="logo">
+          <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png">{% image logo.jpg  class="img-center" %}</a>
+          <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+        </div><!-- #logo end -->
+
+        <ul class="header-extras">
+          <li>
+            <i class="i-plain icon-email3 nomargin"></i>
+            <div class="he-text">
+              Drop an Email
+              <span>serveradmin@abramseyecare.com </span>
+            </div>
+          </li>
+          <li>
+            <i class="i-plain icon-call nomargin"></i>
+            <div class="he-text">
+              Get in Touch
+              <span>1-877-846-4223</span>
+            </div>
+          </li>
         </ul>
+
       </div>
-    </div>
-  </div>
-</header>
+
+      <div id="header-wrap">
+
+        <!-- Primary Navigation
+        ============================================= -->
+        <nav id="primary-menu" class="style-2 sub-title">
+
+          <div class="container clearfix">
+
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+            <ul>
+              <li><a href="index.html"><div>Home</div></a></li>
+              <li class="current"><a href="about.html"><div>About Us</div></a></li>
+              <li><a href="shop.html"><div>Our Doctors</div></a>
+                <ul>
+                  <li><a href="shop.html"><div>Dr. Abrams</div></a></li>
+                  <li><a href="shop.html"><div>Dr. JJ Abrams</div></a></li>
+                  <li><a href="shop.html"><div>Dr. Jones</div></a></li>
+                  <li><a href="shop.html"><div>Dr. Lloyd</div></a></li>
+                  <li><a href="shop.html"><div>Dr. Mann</div></a></li>
+                  <li><a href="shop.html"><div>Dr. Rothbaum</div></a></li>
+                </ul>
+              </li>
+              <li><a href="shop.html"><div>Patient Portal</div></a>
+                <ul>
+                  <li><a href="shop.html"><div>First Visit</div></a></li>
+                  <li><a href="shop.html"><div>Forms</div></a></li>
+                  <li><a href="shop.html"><div>Insurance</div></a></li>
+                  <li><a href="shop.html"><div>Online Registration</div></a></li>
+                  <li><a href="shop.html"><div>Directions</div></a></li>
+                </ul>
+              </li>
+              </li>
+              <li class="mega-menu"><a href="#"><div>Lasik</div></a>
+                 <div class="mega-menu-content col-2 clearfix">
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="blog.html"><div>LASIK Home</div></a></li>
+                        <li><a href="blog-left-sidebar.html"><div>LASIK Surgery</div></a></li>
+                        <li><a href="blog-both-sidebar.html"><div>PRK</div></a></li>
+                        <li><a href="blog-full-width.html"><div>Custom LVC</div></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="blog-masonry.html"><div>Intralase</div></a></li>
+                        <li><a href="blog-masonry-3.html"><div>Candidates</div></a></li>
+                        <li><a href="blog-masonry-2.html"><div>Surgery Information</div></a></li>
+                        <li><a href="blog-masonry-full.html"><div>Payment Options</div></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+             <li class="mega-menu"><a href="#"><div>Eye Procedures</div></a>
+                 <div class="mega-menu-content col-2 clearfix">
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="blog.html"><div>Eye Procedures Home</div></a></li>
+                        <li><a href="blog-left-sidebar.html"><div>Yag Capsulotomy</div></a></li>
+                        <li><a href="blog-both-sidebar.html"><div>Trabeculectomy</div></a></li>
+                        <li><a href="blog-full-width.html"><div>Blepharoplasty</div></a></li>
+                        <li><a href="blog-full-width.html"><div>Pterygiums</div></a></li>
+                        <li><a href="blog-full-width.html"><div>Limbal Relaxing Incisions</div></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="blog-masonry.html"><div>Cataract</div></a></li>
+                        <li><a href="blog-masonry-3.html"><div>SLT</div></a></li>
+                        <li><a href="blog-masonry-2.html"><div>Diabetic Laser Treatment</div></a></li>
+                        <li><a href="blog-masonry-full.html"><div>Lid Lesion/Cysts</div></a></li>
+                        <li><a href="blog-masonry-full.html"><div>NLD Probing</div></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="shop.html"><div>Optical</div></a>
+                <ul>
+                  <li><a href="shop.html"><div>Eyewear Lines</div></a></li>
+                  <li><a href="shop.html"><div>FAQ</div></a></li>
+                </ul>
+              </li>
+              <li><a href="index.html"><div>Contact Us</div></a></li>
+            </ul>
+
+          </div>
+
+        </nav><!-- #primary-menu end -->
+
+      </div>
+
+    </header><!-- #header end -->
 

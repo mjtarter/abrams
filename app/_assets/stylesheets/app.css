@@ -2,3 +2,44 @@
 //= require utilities 
 //= require layout 
 //= require responsive 
+
+
+/********Theme Overrides*******/
+
+/* Header */
+#primary-menu.sub-title > ul > li:hover > a, #primary-menu.sub-title > ul > li.current > a, #primary-menu.sub-title > div > ul > li:hover > a, #primary-menu.sub-title > div > ul > li.current > a {
+    background-color: #3764b6 !important;
+}
+
+#header.sticky-style-3 {
+    height: 161px !important;
+}
+
+#primary-menu.style-2, #primary-menu.style-2 > div > ul, #primary-menu.style-2 > div > ul > li > a {
+    height: 60px !important;
+}
+
+.header-extras li .he-text span {
+    color: #3764b6 !important;
+}
+
+
+/* Footer */
+#footer {
+	margin-top: 0px !important;
+	font-size: 14px !important;
+}
+
+#footer .footer-widgets-wrap {
+	padding:50px 0px !important;
+}
+
+
+/*Global*/
+.button {
+	background-color: #3764b6 !important;
+}
+
+body {
+	font-size: 16px !important;
+}
