@@ -4,39 +4,58 @@ layout: default
 
 {% include header.html %}
 
-<div class="page-title white-bg">
-  <h1 class="text-center">Patient Forms</h1>
-</div>
+<!-- Page Title
+		============================================= -->
+<section id="page-title">
 
-<div class="row pt-50 white-bg">
-	<div class="large-12 medium-12 columns">
+	<div class="container clearfix">
+		<h1>Patient Forms</h1>
+		<ol class="breadcrumb">
+			<li><a href="first-visit.html">Patient Portal</a></li>
+			<li class="active">Patient Forms</li>
+		</ol>
+	</div>
+
+</section><!-- #page-title end -->
+
+<div class="container pt-50 white-bg">
+	<div class="col-sm-12">
 		<p>These forms are provided in Adobe Acrobat PDF format. To view the forms, you will need the Adobe Acrobat Reader, which you can get free of charge from Adobe here: {% image adobe-reader.jpg %}</p>
 	</div>
 </div>
-<div class="row white-bg">
-  <div class="large-10 large-offset-1 columns">
-		<div class="large-4 medium-4 columns">
-			<p>Contact Lens Fees Form</p>
-			<p>Patient Registration Form</p>
+<div class="container white-bg text-center forms">
+  <div class="col-lg-10 col-lg-offset-1">
+		<div class="col-md-4">
+			<a href="contact-lens-eval-fees.pdf" target="_blank">{% image contact-lens-form.png %}</a>
+			<a href="contact-lens-eval-fees.pdf" target="_blank"><p>Contact Lens Fees Form</p></a>
 		</div>
-		<div class="large-4 medium-4 columns">
-			<p>Financial Responsibility Form</p>
-			<p>Worker's Compensation Form</p>
+		<div class="col-md-4">
+			<a href="financial-responsibility.pdf" target="_blank">{% image financial-responsibility-form.png %}</a>
+			<a href="financial-responsibility.pdf" target="_blank"><p>Financial Responsibility Form</p></a>
 		</div>
-		<div class="large-4 medium-4 columns">
-			<p>Medical History Form</p>
+		<div class="col-md-4">
+			<a href="medical-history-form.pdf" target="_blank">{% image medical-history.png %}</a>
+			<a href="medical-history-form.pdf" target="_blank"><p>Medical History Form</p></a>
+		</div>
+		<div class="col-md-4">
+			<a href="patient-registration.pdf" target="_blank">{% image patient-registration-form.png %}</a>
+			<a href="patient-registration.pdf" target="_blank"><p>Patient Registration Form</p></a>
+		</div>
+		<div class="col-md-4">
+			<a href="workers-compensation-form.pdf" target="_blank">{% image workers-compensation-form.png %}</a>
+			<a href="workers-compensation-form.pdf" target="_blank"><p>Worker's Compensation Form</p></a>
 		</div>
 	</div>
 </div>
 
-<div class="row white-bg pt-25">
-	<div class="large-10 large-offset-1 medium-10 columns pb-40">
+<div class="container white-bg">
+	<div class="col-md-10 col-lg-offset-1 pb-40">
 		<div class="panel text-center ptb-25">
 			<h3 class="pb-15">Pre-Visit Information</h3>
-			<a class="btn-blue">Forms</a>
-			<a class="btn-blue">Insurance</a>
-			<a class="btn-blue">Online Registration</a>
-			<a class="btn-blue">Directions</a>
+			<a href="forms.html" class="button button-3d button-rounded button-blue">Forms</a>
+			<a href="insurance.html" class="button button-3d button-rounded button-blue">Insurance</a>
+			<a href="registration.html" class="button button-3d button-rounded button-blue">Online Registration</a>
+			<a href="contact.html" class="button button-3d button-rounded button-blue">Directions</a>
 		</div>
 	</div>
 </div>
